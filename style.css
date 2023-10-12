@@ -1,0 +1,97 @@
+@import url("https://fonts.googleapis.com/css2?family=AR+One+Sans:wght@400;500;600;700&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  list-style: none;
+  text-decoration: none;
+  font-family: "AR One Sans", sans-serif;
+}
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background: #7f8c8d;
+}
+.calculator {
+  display: flex;
+  align-items: center;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  height: 80vh;
+  border-radius: 1rem;
+  gap: 3rem;
+  color: white;
+  width: 50vw;
+  justify-content: center;
+  flex-direction: column;
+  background: #2980b9;
+}
+
+.result > input {
+  width: 40vw;
+  height: 10vh;
+  background-color: transparent;
+  border: none;
+  border-bottom: 1px solid white;
+  outline: none;
+  color: white;
+  font-size: 2rem;
+  font-weight: 700;
+}
+.button-board {
+  width: 40vw;
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.button-board > .row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+}
+.btn-row {
+  font-size: 1.3rem;
+  cursor: pointer;
+  width: 5rem;
+  height: 3rem;
+  background: white;
+  color: #2980b9;
+  border-radius: 0.4rem;
+  border: none;
+  outline: none;
+}
+.btn-row:hover {
+  background-color: #2980b9;
+  color: #fff;
+  border: 1px solid white;
+  transition: all 0.3s ease-in-out;
+}
+.equal {
+  background: #00b894;
+  color: white;
+  width: 100%;
+  font-size: 1.5rem;
+}
+.equal:hover {
+  background: #00b894;
+  color: white;
+  width: 100%;
+  font-size: 1.5rem;
+}
+.clear {
+  background: #e17055;
+  color: white;
+}
+.clear:hover {
+  background: #e17055;
+  color: white;
+}
+.heading {
+  text-decoration: underline;
+  text-underline-offset: 10px;
+  font-weight: 700;
+}
